@@ -7,3 +7,6 @@ def index(request):
 
 def abc(request):
     return render(request, 'jupyter.html')
+
+def work(request):
+    return render (request, 'test.html')
