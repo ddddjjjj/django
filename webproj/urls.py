@@ -21,5 +21,5 @@ urlpatterns = [
     path('', index),
     path('admin/', admin.site.urls),
     path('notebook/', result),
-    path('working/',work)
+    path('paul/',work)
 ]
