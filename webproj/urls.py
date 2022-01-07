@@ -20,5 +20,5 @@ from homepage.views import index,abc
 urlpatterns = [
     path('', index),
     path('admin/', admin.site.urls),
-    path('abc', abc)
+    path('abc', abc),
 ]
